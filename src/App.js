@@ -1,25 +1,17 @@
-import React from 'react';
-import { StreamChat } from 'stream-chat';
-import { Chat } from 'stream-chat-react';
-import { Cookies } from 'universal-cookie';
-import ChannelContainer from './components/ChannelContainer';
-import ChannelListContainer from './components/ChannelListContainer';
+import React from "react";
 import "./App.css";
-
-const apiKey="3efjbet64ngp"
-
-const client = StreamChat.getInstance(apiKey);
-
+import SearchBar from "./components/SearchBar";
+import TransactionForm from "./components/TransactionForm";
+import TransactionTable from "./components/TransactionTable";
 
 const App = () => {
-  return (
-    <div className='app__wrapper'>
-      <Chat client={client} theme="team light">
-          <ChannelListContainer/>
-          <ChannelContainer/>
-      </Chat>
-    </div>
-  )
-}
+	return (
+		<div>
+      <SearchBar/>
+			<TransactionForm />
+			<TransactionTable />
+		</div>
+	);
+};
 
-export default App
+export default App;

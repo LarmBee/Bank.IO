@@ -1,0 +1,8 @@
+.maintable{
+    color: red;
+    border: 2px solid black;
+}
+
+td, tr, th{
+    border: 2px solid black;
+}
