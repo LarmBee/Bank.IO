@@ -1,5 +1,5 @@
 {
-    "transcations":[
+  "transcations": [
     {
       "id": 1,
       "date": "2019-12-01",
@@ -97,6 +97,20 @@
       "category": "Food",
       "amount": "3000",
       "id": 14
+    },
+    {
+      "date": "2023-01-03",
+      "description": "BIrthday money",
+      "category": "Sherehe",
+      "amount": "123000",
+      "id": 77
+    },
+    {
+      "date": "2023-01-17",
+      "description": "Uber Money",
+      "category": "Transport",
+      "amount": "2000",
+      "id": 78
     }
-]
+  ]
 }

@@ -7,7 +7,7 @@ import TransactionTable from "./components/TransactionTable";
 const App = () => {
 	return (
 		<div>
-      <SearchBar/>
+			<SearchBar />
 			<TransactionForm />
 			<TransactionTable />
 		</div>

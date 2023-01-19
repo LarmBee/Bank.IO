@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import "./transaction.css";
 
 
-const TransactionTable = () => {
+const TransactionTable = (description) => {
     const [data, setData] = useState([]);
 
     useEffect(() => {
